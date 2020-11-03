@@ -22,7 +22,7 @@ class Customer
   end
 
   def waiters
-    meals.collect {|meal| meal.waite}
+    meals.collect {|meal| meal.waiter}
   end
 
 end
